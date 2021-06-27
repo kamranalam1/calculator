@@ -1,0 +1,66 @@
+body{
+    width: 100%;
+}
+.main{
+    /* width:50%;
+    margin: 0% auto; */
+    display: flex;
+    justify-content: center;
+}
+.items{
+    /* width: 75%;
+    margin: 0% auto; */
+    /* border: 1px solid black; */
+   
+}
+.items>#input{
+    width: 128px;
+    /* margin-left: 33px; */
+    background-color: antiquewhite;}
+
+.button{
+    margin: 0% auto;
+    /* width: 80%; */
+    margin-top: 10px;
+}
+.button>button{
+    background-color: brown;
+    width: 30px;
+    margin-top: 5px;
+}
+.c{
+    background-color : burlywood !important;
+    width: 49px !important;
+}
+.ac{
+    background-color : burlywood !important;
+    width: 45px !important;
+}
+.equall{
+    background-color : burlywood !important;
+    width: 64px !important;
+}
+.plus{
+    background-color: burlywood !important;
+}
+.minus{
+    background-color: burlywood !important;
+}
+.multiply{
+    background-color: burlywood !important;
+}
+.dot{
+    background-color: burlywood !important;
+
+}
+.divide{
+    background-color: burlywood !important;
+
+}
+button:focus{
+    background-color: rgb(240, 218, 218) !important;
+    }
+    .name{
+        text-align: center;
+        
+    }

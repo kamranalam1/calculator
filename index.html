@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>Calculator</title>
+</head>
+<link rel="stylesheet" href="style.css">
+
+<body>
+
+    <h1 class="name">MUHAMMAD KAMRAN ALAM
+        <br>Calculator
+    </h1>
+    <div class="main">
+        <div class="items">
+
+            <input type="text" placeholder="Enter value" id="input">
+
+            <div class="button">
+
+                <button class="c" onclick="valueClear ()"> C </button>
+                <button class="ac" onclick="clean ()"> AC </button>
+                <button class="plus" onclick="getvalue ('+')"> + </button>
+                <br>
+                <button class="number" onclick="getvalue ('7')"> 7 </button>
+                <button class="number" onclick="getvalue ('8')"> 8 </button>
+                <button class="number" onclick="getvalue ('9')"> 9 </button>
+                <button class="divide" onclick="getvalue ('/')"> / </button> <br>
+                <button class="number" onclick="getvalue ('4')"> 4 </button>
+                <button class="number" onclick="getvalue ('5')"> 5 </button>
+                <button class="number" onclick="getvalue ('6')"> 6 </button>
+                <button class="multiply" onclick="getvalue ('*')"> * </button> <br>
+                <button class="number" onclick="getvalue ('1')"> 1 </button>
+                <button class="number" onclick="getvalue ('2')"> 2 </button>
+                <button class="number" onclick="getvalue ('3')"> 3 </button>
+                <button class="minus" onclick="getvalue ('-')"> - </button><br>
+                <button class="number" onclick="getvalue ('0')"> 0 </button>
+                <button class="dot" onclick="getvalue ('.')"> . </button>
+                <button class="equall" onclick="calc ('=')"> = </button>
+
+
+
+            </div>
+        </div>
+
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
